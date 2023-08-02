@@ -13,7 +13,7 @@ body {
 #root {
   animation: gradient 10s ease infinite;
   background: linear-gradient(to bottom right, #020031, #00222b, #020031, #00222b);
-  background-size: 400% 400%;
+  background-size: 300% 300%;
   height: 100%;
   width: 100%;
 }
@@ -24,6 +24,6 @@ body {
   }
 
   100% {
-      background-position: 90% 90%;
+      background-position: 100% 100%;
   }
 }
