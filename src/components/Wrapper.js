@@ -19,7 +19,7 @@ export default function Wrapper() {
                         <Project
                             preview={require('../images/cards.png')}
                             title="Cards"
-                            description="A website for outlining and organization (development build)"
+                            description="A website for outlining and organization (demonstration build)"
                             link="https://cards.amphi.online"
                             github="https://github.com/davidrgb/Cards_Node"
                             icons=
@@ -56,7 +56,7 @@ export default function Wrapper() {
                         <Project
                             preview={require('../images/huffman.png')}
                             title="Huffman Compressor"
-                            description="A website that compresses text using Huffman compression, built with vanilla JavaScript and CSS."
+                            description="A website that compresses text using Huffman compression"
                             link="https://huffman.amphi.online"
                             github="https://github.com/davidrgb/HuffmanCompressor_Node"
                             icons={
