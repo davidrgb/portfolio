@@ -2,6 +2,18 @@
     text-align: start;
 }
 
+.intro a {
+    all: unset;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: all is ease;
+    transition-duration: 0.2s;
+}
+
+.intro a:hover {
+    color: #14223b;
+}
+
 .fade {
     animation: text-fade 1s ease;
     animation-fill-mode: forwards;
@@ -37,6 +49,10 @@
     animation-delay: 9.25s;
 }
 
+.sixth-fade {
+    animation-delay: 10.75s;
+}
+
 h1 {
     font-size: 3rem;
     margin: 0;
@@ -64,12 +80,31 @@ h3 {
     margin: 0;
 }
 
+.third-group {
+    padding-bottom: 2rem;
+    text-align: start;
+}
+
+.contact {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+    margin: 0;
+    padding-left: 1rem;
+}
+
 @media screen and (min-width: 1000px) {
     h2 {
         padding-left: 1.5rem;
     }
 
     h3 {
+        padding-left: 1.5rem;
+    }
+
+    .contact {
         padding-left: 1.5rem;
     }
 }

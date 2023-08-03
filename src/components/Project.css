@@ -35,6 +35,8 @@
     animation: project-content-fade 1s;
     animation-fill-mode: forwards;
     opacity: 0;
+    transition: all is ease;
+    transition-duration: 0.2s;
 }
 
 @keyframes project-content-fade {
@@ -53,6 +55,8 @@
     height: auto;
     filter: drop-shadow(8px 8px 5px #182944);
     max-width: 90%;
+    transition: all is ease;
+    transition-duration: 0.2s;
     width: auto;
 }
 
@@ -73,6 +77,8 @@
     justify-content: center;
     max-width: 90%;
     padding: 1rem;
+    transition: all is ease;
+    transition-duration: 0.2s;
 }
 
 .info:before {
@@ -87,6 +93,8 @@
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
+    transition: all is ease;
+    transition-duration: 0.2s;
 }
 
 .title:hover {
@@ -97,6 +105,8 @@
     animation-delay: 12.2s;
     font-size: 1.25rem;
     text-align: center;
+    transition: all is ease;
+    transition-duration: 0.2s;
 }
 
 .tech {
@@ -109,6 +119,8 @@
     gap: 1rem;
     justify-content: space-around;
     max-width: 90%;
+    transition: all is ease;
+    transition-duration: 0.2s;
 }
 
 button {
@@ -117,10 +129,12 @@ button {
     align-items: center;
     display: flex;
     justify-content: center;
+    transition: all is ease;
+    transition-duration: 0.2s;
 }
 
 button:hover {
-    color: #14223b
+    color: #14223b;
 }
 
 @media screen and (min-width: 400px) {

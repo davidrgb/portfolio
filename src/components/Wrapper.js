@@ -25,14 +25,14 @@ export default function Wrapper() {
                             icons=
                             {
                                 [
-                                    <HtmlIcon fontSize="inherit" />,
-                                    <CssIcon fontSize="inherit" />,
-                                    <JavascriptIcon fontSize="inherit" />,
-                                    <img className="image-icon" src={require('../images/react.png')} />,
-                                    <img className="image-icon" src={require('../images/node.png')} />,
-                                    <img className="image-icon" src={require('../images/ubuntu.png')} />,
-                                    <img className="image-icon" src={require('../images/mysql.png')} />,
-                                    <img className="image-icon" src={require('../images/nginx.png')} />,
+                                    <span title="HTML"><HtmlIcon fontSize="inherit" /></span>,
+                                    <span title="CSS"><CssIcon fontSize="inherit" /></span>,
+                                    <span title="JavaScript"><JavascriptIcon fontSize="inherit" /></span>,
+                                    <img className="image-icon" src={require('../images/react.png')} title="React" />,
+                                    <img className="image-icon" src={require('../images/node.png')} title="Node.js" />,
+                                    <img className="image-icon" src={require('../images/ubuntu.png')} title="Ubuntu" />,
+                                    <img className="image-icon" src={require('../images/mysql.png')} title="MySQL" />,
+                                    <img className="image-icon" src={require('../images/nginx.png')} title="Nginx" />,
                                 ]
                             }
                         />,
@@ -44,13 +44,13 @@ export default function Wrapper() {
                             github="https://github.com/davidrgb/HuffmanCompressor_Node"
                             icons={
                                 [
-                                    <HtmlIcon fontSize="inherit" />,
-                                    <CssIcon fontSize="inherit" />,
-                                    <JavascriptIcon fontSize="inherit" />,
-                                    <img className="image-icon" src={require('../images/node.png')} />,
-                                    <img className="image-icon" src={require('../images/ubuntu.png')} />,
-                                    <img className="image-icon" src={require('../images/mysql.png')} />,
-                                    <img className="image-icon" src={require('../images/nginx.png')} />,
+                                    <span title="HTML"><HtmlIcon fontSize="inherit" /></span>,
+                                    <span title="CSS"><CssIcon fontSize="inherit" /></span>,
+                                    <span title="JavaScript"><JavascriptIcon fontSize="inherit" /></span>,
+                                    <img className="image-icon" src={require('../images/node.png')} title="Node.js" />,
+                                    <img className="image-icon" src={require('../images/ubuntu.png')} title="Ubuntu" />,
+                                    <img className="image-icon" src={require('../images/mysql.png')} title="MySQL" />,
+                                    <img className="image-icon" src={require('../images/nginx.png')} title="Nginx" />,
                                 ]
                             }
                         />
