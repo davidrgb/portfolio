@@ -37,6 +37,23 @@ export default function Wrapper() {
                             }
                         />,
                         <Project
+                            preview={require('../images/questions.png')}
+                            title="20/20 Questions"
+                            description="A real-time multiplayer spin on 20 Questions"
+                            link="https://questions.amphi.online"
+                            github="https://github.com/davidrgb/20-20-Questions"
+                            icons=
+                            {
+                                [
+                                    <img className="image-icon" src={require('../images/flutter.png')} title="Flutter" />,
+                                    <img className="image-icon" src={require('../images/firebase.png')} title="Firebase" />,
+                                    <img className="image-icon" src={require('../images/node.png')} title="Node.js" />,
+                                    <img className="image-icon" src={require('../images/ubuntu.png')} title="Ubuntu" />,
+                                    <img className="image-icon" src={require('../images/nginx.png')} title="Nginx" />,
+                                ]
+                            }
+                        />,
+                        <Project
                             preview={require('../images/huffman.png')}
                             title="Huffman Compressor"
                             description="A website that compresses text using Huffman compression, built with vanilla JavaScript and CSS."
