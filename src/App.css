@@ -11,10 +11,11 @@ body {
 }
 
 #root {
-  animation: gradient 10s ease infinite;
+  animation: none;
   background: linear-gradient(to bottom right, #020031, #00222b, #020031, #00222b);
   background-size: 300% 300%;
   height: 100%;
+  min-width: 320px;
   width: 100%;
 }
 
