@@ -85,10 +85,12 @@ function Slideshow({ projects }) {
 
     return (
         <div className="slideshow">
-            <div className="slideshowSlider" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
-                {projects.map((project, index) => (
-                    <div className="project-wrapper" key={index}>{project}</div>
-                ))}
+            <div className="slider-wrapper">
+                <div className="slideshow-slider" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
+                    {projects.map((project, index) => (
+                        <div className="project-wrapper" key={index}>{project}</div>
+                    ))}
+                </div>
             </div>
 
             <div className="slideshow-buttons">
