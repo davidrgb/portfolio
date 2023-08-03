@@ -11,6 +11,7 @@
     transition: all is ease;
     transition-duration: 0.2s;
     width: 100%;
+    will-change: transform;
 }
 
 @keyframes gradient {
@@ -36,8 +37,6 @@
     justify-content: space-around;
     min-height: 90%;
     padding: 1rem;
-    transition: all is ease;
-    transition-duration: 0.2s;
     width: 90%;
 }
 
@@ -66,9 +65,6 @@
     margin: 0;
     max-width: 100%;
     overflow: hidden;
-    transition: all is ease;
-    transition-duration: 0.2s;
-    will-change: transform;
 }
 
 @keyframes slideshow-fade {
@@ -89,21 +85,6 @@
     min-height: 90%;
     max-height: 90%;
     min-width: 100%;
-    transition: all is ease;
-    transition-duration: 1s;
-    white-space: nowrap;
-    will-change: transform;
-}
-
-.slideshow-slider {
-    display: flex;
-    flex-direction: row;
-    min-height: 100%;
-    min-width: 100%;
-    transition: all is ease;
-    transition-duration: 1s;
-    white-space: nowrap;
-    will-change: transform;
 }
 
 @keyframes slider-fade {
@@ -119,9 +100,20 @@
     }
 }
 
+.slideshow-slider {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    min-width: 100%;
+    transition: all is ease;
+    transition-duration: 1s;
+    white-space: nowrap;
+}
+
 .project-wrapper {
     min-width: 100%;
     min-height: 100%;
+    white-space: normal;
 }
 
 .image-icon {

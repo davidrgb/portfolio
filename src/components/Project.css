@@ -10,8 +10,6 @@
     padding: 1rem;
     transition: all is ease;
     transition-duration: 0.2s;
-    white-space: normal;
-    will-change: transform;
 }
 
 .project a {
@@ -55,10 +53,7 @@
     height: auto;
     filter: drop-shadow(8px 8px 5px #182944);
     max-width: 90%;
-    transition: all is ease;
-    transition-duration: 0.2s;
     width: auto;
-    will-change: transform;
 }
 
 .preview:hover {
@@ -78,7 +73,6 @@
     justify-content: center;
     max-width: 90%;
     padding: 1rem;
-    will-change: transform;
 }
 
 .info:before {
@@ -93,8 +87,6 @@
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    transition: all is ease;
-    transition-duration: 0.2s;
 }
 
 .title:hover {
@@ -117,7 +109,6 @@
     gap: 1rem;
     justify-content: space-around;
     max-width: 90%;
-    will-change: transform;
 }
 
 button {
@@ -126,8 +117,6 @@ button {
     align-items: center;
     display: flex;
     justify-content: center;
-    transition: all is ease;
-    transition-duration: 0.2s;
 }
 
 button:hover {
