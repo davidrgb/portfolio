@@ -16,8 +16,8 @@ export default function Intro({ hideIntro }) {
                 <h3 className="fade fifth-fade">Mobile, desktop, and web.</h3>
             </div>
             <div className="contact fade sixth-fade">
-                <a href="tel: 580-301-0080"><PhoneIcon fontSize="inherit" /></a>
-                <a href="mailto: davidrussellrgb@gmail.com"><EmailIcon fontSize="inherit" /></a>
+                <a href="tel: 580-301-0080" aria-label="Call"><PhoneIcon fontSize="inherit" /></a>
+                <a href="mailto: davidrussellrgb@gmail.com" aria-label="Email"><EmailIcon fontSize="inherit" /></a>
             </div>
         </div>
     );
