@@ -91,7 +91,7 @@ export default function Wrapper() {
                             preview={require('../images/trivia_app_web.png')}
                             title="Trivia App Admin Portal"
                             description="An admin portal for managing a trivia app"
-                            link="https://admin.amphi.online"
+                            link="https://drussell22-trivia-app.web.app/"
                             github="https://github.com/davidrgb/TriviaAppWeb"
                             icons={
                                 [
