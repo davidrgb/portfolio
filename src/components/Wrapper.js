@@ -28,11 +28,11 @@ export default function Wrapper() {
                                     <span title="HTML"><HtmlIcon fontSize="inherit" /></span>,
                                     <span title="CSS"><CssIcon fontSize="inherit" /></span>,
                                     <span title="JavaScript"><JavascriptIcon fontSize="inherit" /></span>,
-                                    <img className="image-icon" src={require('../images/react.png')} title="React" />,
-                                    <img className="image-icon" src={require('../images/node.png')} title="Node.js" />,
-                                    <img className="image-icon" src={require('../images/ubuntu.png')} title="Ubuntu" />,
-                                    <img className="image-icon" src={require('../images/mysql.png')} title="MySQL" />,
-                                    <img className="image-icon" src={require('../images/nginx.png')} title="Nginx" />,
+                                    <img className="image-icon" src={require('../images/react.png')} alt="React Icon" title="React" />,
+                                    <img className="image-icon" src={require('../images/node.png')} alt="Node.js Icon" title="Node.js" />,
+                                    <img className="image-icon" src={require('../images/ubuntu.png')} alt="Ubuntu Icon" title="Ubuntu" />,
+                                    <img className="image-icon" src={require('../images/mysql.png')} alt="MySQL Icon" title="MySQL" />,
+                                    <img className="image-icon" src={require('../images/nginx.png')} alt="Nginx Icon" title="Nginx" />,
                                 ]
                             }
                         />,
@@ -45,11 +45,11 @@ export default function Wrapper() {
                             icons=
                             {
                                 [
-                                    <img className="image-icon" src={require('../images/flutter.png')} title="Flutter" />,
-                                    <img className="image-icon" src={require('../images/firebase.png')} title="Firebase" />,
-                                    <img className="image-icon" src={require('../images/node.png')} title="Node.js" />,
-                                    <img className="image-icon" src={require('../images/ubuntu.png')} title="Ubuntu" />,
-                                    <img className="image-icon" src={require('../images/nginx.png')} title="Nginx" />,
+                                    <img className="image-icon" src={require('../images/flutter.png')} alt="Flutter Icon" title="Flutter" />,
+                                    <img className="image-icon" src={require('../images/firebase.png')} alt="Firebase Icon" title="Firebase" />,
+                                    <img className="image-icon" src={require('../images/node.png')} alt="Node.js Icon" title="Node.js" />,
+                                    <img className="image-icon" src={require('../images/ubuntu.png')} alt="Ubuntu Icon" title="Ubuntu" />,
+                                    <img className="image-icon" src={require('../images/nginx.png')} alt="Nginx Icon" title="Nginx" />,
                                 ]
                             }
                         />,
@@ -64,10 +64,10 @@ export default function Wrapper() {
                                     <span title="HTML"><HtmlIcon fontSize="inherit" /></span>,
                                     <span title="CSS"><CssIcon fontSize="inherit" /></span>,
                                     <span title="JavaScript"><JavascriptIcon fontSize="inherit" /></span>,
-                                    <img className="image-icon" src={require('../images/node.png')} title="Node.js" />,
-                                    <img className="image-icon" src={require('../images/ubuntu.png')} title="Ubuntu" />,
-                                    <img className="image-icon" src={require('../images/mysql.png')} title="MySQL" />,
-                                    <img className="image-icon" src={require('../images/nginx.png')} title="Nginx" />,
+                                    <img className="image-icon" src={require('../images/node.png')} alt="Node.js Icon" title="Node.js" />,
+                                    <img className="image-icon" src={require('../images/ubuntu.png')} alt="Ubuntu Icon" title="Ubuntu" />,
+                                    <img className="image-icon" src={require('../images/mysql.png')} alt="MySQL Icon" title="MySQL" />,
+                                    <img className="image-icon" src={require('../images/nginx.png')} alt="Nginx Icon" title="Nginx" />,
                                 ]
                             }
                         />,
@@ -79,11 +79,11 @@ export default function Wrapper() {
                             github="https://github.com/davidrgb/TriviaAppMobile"
                             icons={
                                 [
-                                    <img className="image-icon" src={require('../images/flutter.png')} title="Flutter" />,
-                                    <img className="image-icon" src={require('../images/firebase.png')} title="Firebase" />,
-                                    <img className="image-icon" src={require('../images/node.png')} title="Node.js" />,
-                                    <img className="image-icon" src={require('../images/ubuntu.png')} title="Ubuntu" />,
-                                    <img className="image-icon" src={require('../images/nginx.png')} title="Nginx" />,
+                                    <img className="image-icon" src={require('../images/flutter.png')} alt="Flutter Icon" title="Flutter" />,
+                                    <img className="image-icon" src={require('../images/firebase.png')} alt="Firebase Icon" title="Firebase" />,
+                                    <img className="image-icon" src={require('../images/node.png')} alt="Node.js Icon" title="Node.js" />,
+                                    <img className="image-icon" src={require('../images/ubuntu.png')} alt="Ubuntu Icon" title="Ubuntu" />,
+                                    <img className="image-icon" src={require('../images/nginx.png')} alt="Nginx Icon" title="Nginx" />,
                                 ]
                             }
                         />,
@@ -98,8 +98,8 @@ export default function Wrapper() {
                                     <span title="HTML"><HtmlIcon fontSize="inherit" /></span>,
                                     <span title="CSS"><CssIcon fontSize="inherit" /></span>,
                                     <span title="JavaScript"><JavascriptIcon fontSize="inherit" /></span>,
-                                    <img className="image-icon" src={require('../images/firebase.png')} title="Firebase" />,
-                                    <img className="image-icon" src={require('../images/node.png')} title="Node.js" />,
+                                    <img className="image-icon" src={require('../images/firebase.png')} alt="Firebase Icon" title="Firebase" />,
+                                    <img className="image-icon" src={require('../images/node.png')} alt="Node.js Icon" title="Node.js" />,
                                 ]
                             }
                         />,
@@ -111,8 +111,8 @@ export default function Wrapper() {
                             github=""
                             icons={
                                 [
-                                    <img className="image-icon" src={require('../images/flutter.png')} title="Flutter" />,
-                                    <img className="image-icon" src={require('../images/firebase.png')} title="Firebase" />,
+                                    <img className="image-icon" src={require('../images/flutter.png')} alt="Flutter Icon" title="Flutter" />,
+                                    <img className="image-icon" src={require('../images/firebase.png')} alt="Firebase Icon" title="Firebase" />,
                                 ]
                             }
                         />,
@@ -124,7 +124,7 @@ export default function Wrapper() {
                             github=""
                             icons={
                                 [
-                                    <img className="image-icon" src={require('../images/java.png')} title="Java" />,
+                                    <img className="image-icon" src={require('../images/java.png')} alt="Java Icon" title="Java" />,
                                 ]
                             }
                         />,
