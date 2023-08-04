@@ -54,6 +54,7 @@
     cursor: pointer;
     height: auto;
     filter: drop-shadow(8px 8px 5px #182944);
+    max-height: 35vh;
     max-width: 90%;
     transition: all is ease;
     transition-duration: 0.2s;

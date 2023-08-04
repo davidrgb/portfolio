@@ -70,7 +70,64 @@ export default function Wrapper() {
                                     <img className="image-icon" src={require('../images/nginx.png')} title="Nginx" />,
                                 ]
                             }
-                        />
+                        />,
+                        <Project
+                            preview={require('../images/trivia_app_mobile.png')}
+                            title="Trivia App"
+                            description="A real-time multiplayer mobile trivia app"
+                            link="https://trivia.amphi.online"
+                            github="https://github.com/davidrgb/TriviaAppMobile"
+                            icons={
+                                [
+                                    <img className="image-icon" src={require('../images/flutter.png')} title="Flutter" />,
+                                    <img className="image-icon" src={require('../images/firebase.png')} title="Firebase" />,
+                                    <img className="image-icon" src={require('../images/node.png')} title="Node.js" />,
+                                    <img className="image-icon" src={require('../images/ubuntu.png')} title="Ubuntu" />,
+                                    <img className="image-icon" src={require('../images/nginx.png')} title="Nginx" />,
+                                ]
+                            }
+                        />,
+                        <Project
+                            preview={require('../images/trivia_app_web.png')}
+                            title="Trivia App Admin Portal"
+                            description="An admin portal for managing a trivia app"
+                            link="https://admin.amphi.online"
+                            github="https://github.com/davidrgb/TriviaAppWeb"
+                            icons={
+                                [
+                                    <span title="HTML"><HtmlIcon fontSize="inherit" /></span>,
+                                    <span title="CSS"><CssIcon fontSize="inherit" /></span>,
+                                    <span title="JavaScript"><JavascriptIcon fontSize="inherit" /></span>,
+                                    <img className="image-icon" src={require('../images/firebase.png')} title="Firebase" />,
+                                    <img className="image-icon" src={require('../images/node.png')} title="Node.js" />,
+                                ]
+                            }
+                        />,
+                        <Project
+                            preview={require('../images/floricapture.png')}
+                            title="Floricapture"
+                            description="A floriculture planning app, built as a member of a remote team for a capstone project"
+                            link="https://www.youtube.com/watch?v=Yhtnq9NQoW4&ab_channel=DavidRussell"
+                            github=""
+                            icons={
+                                [
+                                    <img className="image-icon" src={require('../images/flutter.png')} title="Flutter" />,
+                                    <img className="image-icon" src={require('../images/firebase.png')} title="Firebase" />,
+                                ]
+                            }
+                        />,
+                        <Project
+                            preview={require('../images/tictactoe.png')}
+                            title="Online Tic-Tac-Toe"
+                            description="A peer-to-peer Tic-Tac-Toe desktop app, built as a member of a remote team for a course project"
+                            link="https://www.youtube.com/watch?v=W3J1Wh1YZ9M&ab_channel=DavidRussell"
+                            github=""
+                            icons={
+                                [
+                                    <img className="image-icon" src={require('../images/java.png')} title="Java" />,
+                                ]
+                            }
+                        />,
                     ]
                 } />
 

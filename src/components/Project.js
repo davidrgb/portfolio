@@ -17,7 +17,7 @@ export default function Project({ preview, title, description, link, github, ico
                     }) :
                     <></>
                 }
-                <a href={github}><button title="GitHub"><GitHubIcon fontSize="inherit" /></button></a>
+                {github !== '' ? <a href={github}><button title="GitHub"><GitHubIcon fontSize="inherit" /></button></a> : <span title="GitHub (Private Repo)"><GitHubIcon fontSize="inherit" /></span>}
             </div>
         </div>
     )

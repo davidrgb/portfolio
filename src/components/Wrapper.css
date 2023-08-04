@@ -132,7 +132,6 @@
     animation: slideshow-buttons-fade 2s;
     animation-delay: 12s;
     animation-fill-mode: forwards;
-    min-height: 10%;
     opacity: 0;
     text-align: center;
 }
@@ -151,11 +150,11 @@
     border-radius: 50%;
     cursor: pointer;
     display: inline-block;
-    height: 2rem;
+    height: 1.5rem;
     margin: 1rem 1rem;
     transition: all is ease;
     transition-duration: 0.2s;
-    width: 2rem;
+    width: 1.5rem;
 }
 
 .slideshow-button.active {
@@ -169,6 +168,11 @@
 
     .slideshow {
         max-width: 90%;
+    }
+
+    .slideshow-button {
+        height: 2rem;
+        width: 2rem;
     }
 }
 
