@@ -1,0 +1,111 @@
+.intro {
+    text-align: start;
+}
+
+.intro a {
+    all: unset;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: all is ease;
+    transition-duration: 0.2s;
+}
+
+.intro a:hover {
+    color: #14223b;
+}
+
+.fade {
+    animation: text-fade 1s ease;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes text-fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.first-fade {
+    animation-delay: 2s;
+}
+
+.second-fade {
+    animation-delay: 3.75s;
+}
+
+.third-fade {
+    animation-delay: 5.5s;
+}
+
+.fourth-fade {
+    animation-delay: 7.5s;
+}
+
+.fifth-fade {
+    animation-delay: 9.25s;
+}
+
+.sixth-fade {
+    animation-delay: 10.75s;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+
+.second-group {
+    padding-bottom: 2rem;
+    text-align: start;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding-bottom: 0.35rem;
+    padding-left: 1rem;
+    padding-top: 0.35rem;
+    margin: 0;
+}
+
+.third-group {
+    padding-bottom: 2rem;
+    text-align: start;
+}
+
+.contact {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+    h2 {
+        padding-left: 1.5rem;
+    }
+
+    h3 {
+        padding-left: 1.5rem;
+    }
+
+    .contact {
+        padding-left: 1.5rem;
+    }
+}
+
