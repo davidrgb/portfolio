@@ -36,6 +36,25 @@ export default function Wrapper() {
                                 ]
                             }
                         />,
+                        <Project 
+                            preview={require('../images/memorize.png')}
+                            title="Memorize"
+                            description="A website to help you dedicate anything to memory"
+                            link="https://memorize.amphi.online"
+                            github="https://github.com/davidrgb/Memorize"
+                            icons=
+                            {
+                                [
+                                    <span title="HTML"><HtmlIcon fontSize="inherit" /></span>,
+                                    <span title="CSS"><CssIcon fontSize="inherit" /></span>,
+                                    <span title="JavaScript"><JavascriptIcon fontSize="inherit" /></span>,
+                                    <img className="image-icon" src={require('../images/react.png')} title="React" />,
+                                    <img className="image-icon" src={require('../images/node.png')} title="Node.js" />,
+                                    <img className="image-icon" src={require('../images/ubuntu.png')} title="Ubuntu" />,
+                                    <img className="image-icon" src={require('../images/nginx.png')} title="Nginx" />,
+                                ]
+                            }
+                        />,
                         <Project
                             preview={require('../images/questions.png')}
                             title="20/20 Questions"

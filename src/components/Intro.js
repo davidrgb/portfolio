@@ -1,5 +1,8 @@
 import EmailIcon from '@mui/icons-material/Email';
+import FilePresentIcon from '@mui/icons-material/FilePresent';
 import PhoneIcon from '@mui/icons-material/Phone';
+
+import Resume from '../documents/Resume-David-Russell.pdf';
 
 import './Intro.css';
 
@@ -16,8 +19,9 @@ export default function Intro({ hideIntro }) {
                 <h3 className="fade fifth-fade">Mobile, desktop, and web.</h3>
             </div>
             <div className="contact fade sixth-fade">
-                <a href="tel: 580-301-0080"><PhoneIcon fontSize="inherit" /></a>
-                <a href="mailto: davidrussellrgb@gmail.com"><EmailIcon fontSize="inherit" /></a>
+                <a href="tel: 580-301-0080" title="Call Me"><PhoneIcon fontSize="inherit" /></a>
+                <a href="mailto: davidrussellrgb@gmail.com" title="Email Me"><EmailIcon fontSize="inherit" /></a>
+                <a href={Resume} target="_blank" title="Open Resume"><FilePresentIcon fontSize="inherit" /></a>
             </div>
         </div>
     );
