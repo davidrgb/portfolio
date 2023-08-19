@@ -69,9 +69,9 @@ export default function Intro({ animationComplete, setAnimationComplete, setInde
                 <h3 className="fade fifth-fade">Mobile, desktop, and web.</h3>
             </div>
             <div className="contact fade sixth-fade">
-                <a href="tel: 580-301-0080" title="Call Me"><PhoneIcon fontSize="inherit" /></a>
-                <a href="mailto: davidrussellrgb@gmail.com" title="Email Me"><EmailIcon fontSize="inherit" /></a>
-                <a href={Resume} target="_blank" title="Open Resume"><FilePresentIcon fontSize="inherit" /></a>
+                <a href="tel: 580-301-0080" aria-label="Call Me" title="Call Me"><PhoneIcon fontSize="inherit" /></a>
+                <a href="mailto: davidrussellrgb@gmail.com" aria-label="Email Me" title="Email Me"><EmailIcon fontSize="inherit" /></a>
+                <a href={Resume} target="_blank" aria-label="Open Resume" title="Open Resume"><FilePresentIcon fontSize="inherit" /></a>
             </div>
         </div>
     );
