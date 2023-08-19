@@ -16,27 +16,15 @@
     all: unset;
 }
 
-@keyframes project-fade {
-    0% {
-        background: linear-gradient(to bottom right, #4d81d4, #345892, #4d81d400, #34589200);
-        background-size: 300% 300%;
-        background-position: 100% 100%;
-        border: 1px solid rgba(0, 0, 0, 0);
-    }
-    100% {
-        background: linear-gradient(to bottom right, #4d81d4, #345892, #4d81d400, #34589200);
-        background-size: 300% 300%;
-        background-position: 0% 0%;
-        border: 1px solid rgba(0, 0, 0, 1);
-    }
+.project-content {
+    transition: all is ease;
+    transition-duration: 0.2s;
 }
 
-.project-content {
+.project-content-fade {
     animation: project-content-fade 1s;
     animation-fill-mode: forwards;
     opacity: 0;
-    transition: all is ease;
-    transition-duration: 0.2s;
 }
 
 @keyframes project-content-fade {

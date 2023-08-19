@@ -5,12 +5,12 @@ import './Project.css';
 export default function Project({ preview, title, description, link, github, icons }) {
     return (
         <div className="project">
-            <a href={link}><img className="project-content preview" src={preview} alt="Project Preview"></img></a>
-            <div className="project-content info">
-                <a style={{ order: '-1' }} href={link}><div className="project-content title">{title}</div></a>
-                <div className="project-content description">{description}</div>
+            <a href={link}><img className="project-content project-content-fade preview" alt="Project Preview" src={preview}></img></a>
+            <div className="project-content project-content-fade info">
+                <a style={{order: '-1'}} href={link}><div className="project-content project-content-fade title">{title}</div></a>
+                <div className="project-content project-content-fade description">{description}</div>
             </div>
-            <div className="project-content tech">
+            <div className="project-content project-content-fade tech">
                 {icons.length > 0 ?
                     icons.map((icon) => {
                         return icon;

@@ -55,11 +55,7 @@
 }
 
 .slideshow {
-    animation: slideshow-fade 2;
-    animation-delay: 11s;
-    animation-fill-mode: forwards;
     display: flex;
-    filter: drop-shadow(0px 0px 5px #182944);
     flex-direction: column;
     height: 100%;
     margin: 0;
@@ -67,6 +63,13 @@
     overflow: hidden;
     transition: all is ease;
     transition-duration: 0.2s;
+}
+
+.slideshow-fade {
+    animation: slideshow-fade 2;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+    filter: drop-shadow(0px 0px 5px #182944);
 }
 
 @keyframes slideshow-fade {
@@ -79,16 +82,19 @@
 }
 
 .slider-wrapper {
-    animation: slider-fade 2s;
-    animation-delay: 11s;
-    animation-fill-mode: forwards;
-    background: linear-gradient(to bottom right, #4d81d400, #34589200);
     border-radius: 10px;
     min-height: 90%;
     max-height: 90%;
     min-width: 100%;
     transition: all is ease;
     transition-duration: 0.2s;
+}
+
+.slider-wrapper-fade {
+    animation: slider-fade 2s;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+    background: linear-gradient(to bottom right, #4d81d400, #34589200);
 }
 
 @keyframes slider-fade {
@@ -129,11 +135,14 @@
 }
 
 .slideshow-buttons {
+    text-align: center;
+}
+
+.slideshow-buttons-fade {
     animation: slideshow-buttons-fade 2s;
     animation-delay: 12s;
     animation-fill-mode: forwards;
     opacity: 0;
-    text-align: center;
 }
 
 @keyframes slideshow-buttons-fade {
@@ -159,6 +168,15 @@
 
 .slideshow-button.active {
     background-color: #3873d1;
+}
+
+@keyframes skip-button-fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @media screen and (min-width: 400px) {
