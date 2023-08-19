@@ -14,6 +14,16 @@
     color: #14223b;
 }
 
+.top-span {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 3rem;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
 .fade {
     animation: text-fade 1s ease;
     animation-fill-mode: forwards;
@@ -56,7 +66,7 @@
 h1 {
     font-size: 3rem;
     margin: 0;
-    padding-bottom: 3rem;
+    padding: 0;
 }
 
 .second-group {
@@ -93,6 +103,21 @@ h3 {
     justify-content: flex-start;
     margin: 0;
     padding-left: 1rem;
+}
+
+.fade-out {
+    animation: fade-out 0.2s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 @media screen and (min-width: 1000px) {
