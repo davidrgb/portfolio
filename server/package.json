@@ -1,6 +1,6 @@
 {
   "name": "portfolio_server",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Backend services for portfolio app",
   "main": "index.js",
   "scripts": {
