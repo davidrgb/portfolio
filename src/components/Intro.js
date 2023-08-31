@@ -2,10 +2,12 @@ import { useEffect, useRef } from 'react';
 
 import EmailIcon from '@mui/icons-material/Email';
 import FilePresentIcon from '@mui/icons-material/FilePresent';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
 
-import Resume from '../documents/Resume-David-Russell.pdf';
+import Resume from '../documents/David-Russell-Resume-SE.pdf';
 
 import './Intro.css';
 
@@ -65,12 +67,14 @@ export default function Intro({ animationComplete, setAnimationComplete, setInde
                 <h2 className="fade third-fade">I'm a software developer</h2>
             </div>
             <div className="third-group">
-                <h3 className="fade fourth-fade">Front-end, back-end</h3>
+                <h3 className="fade fourth-fade">Front end, back end</h3>
                 <h3 className="fade fifth-fade">Mobile, desktop, and web.</h3>
             </div>
             <div className="contact fade sixth-fade">
                 <a href="tel: 580-301-0080" aria-label="Call Me" title="Call Me"><PhoneIcon fontSize="inherit" /></a>
                 <a href="mailto: davidrussellrgb@gmail.com" aria-label="Email Me" title="Email Me"><EmailIcon fontSize="inherit" /></a>
+                <a href="https://www.linkedin.com/in/david-russell-9aa868261/" target="_blank" aria-label="LinkedIn" title="LinkedIn"><LinkedInIcon fontSize="inherit" /></a>
+                <a href="https://github.com/davidrgb" target="_blank" aria-label="GitHub" title="GitHub"><GitHubIcon fontSize="inherit" /></a>
                 <a href={Resume} target="_blank" aria-label="Open Resume" title="Open Resume"><FilePresentIcon fontSize="inherit" /></a>
             </div>
         </div>
